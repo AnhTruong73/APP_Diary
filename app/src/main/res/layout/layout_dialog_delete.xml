@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FF1493">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="16dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Xác nhận xóa"
+            android:textColor="@color/white"
+            android:padding="12dp"
+            android:gravity="center"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bạn có chắc là muốn xóa nhật ký này hay không?"
+            android:textColor="@color/white"
+            android:padding="12dp"
+            android:textSize="18sp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginRight="10dp"
+                android:background="#C71585"
+                android:textColor="@color/white"
+                android:id="@+id/btn_cancel"
+                android:text="Hủy bỏ"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="#C71585"
+                android:textColor="@color/white"
+                android:layout_weight="1"
+                android:id="@+id/btn_delete"
+                android:text="Xóa"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

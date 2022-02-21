@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FF1493">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="16dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thêm Diary"
+            android:textColor="@color/white"
+            android:padding="12dp"
+            android:gravity="center"
+            android:textSize="25sp"/>
+        <EditText
+            android:id="@+id/edt_add_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="12dp"
+            android:hint="Chủ đề mới"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"/>
+
+
+        <EditText
+            android:id="@+id/edt_add_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="12dp"
+            android:hint="Nội dung mới"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginRight="10dp"
+                android:background="#C71585"
+                android:textColor="@color/white"
+                android:id="@+id/btn_cancel"
+                android:text="Hủy bỏ"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="#C71585"
+                android:textColor="@color/white"
+                android:layout_weight="1"
+                android:id="@+id/btn_add"
+                android:text="Thêm mới"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
